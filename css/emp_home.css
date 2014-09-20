@@ -1,0 +1,132 @@
+.upper_ribbon_left {
+	background-image: url("../images/upper_ribbon_left.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	height: 67px;
+	left: -15px;
+	margin: 0;
+	position: absolute;
+	top: -10px;
+	width: 20px;
+}
+.grey_bg {
+   background-image: url("../images/upper_ribbon_grey_bg.png");	
+	background-repeat: repeat-x;
+	height: 41px;
+	margin: 0px 0px;
+	width: 174px;
+	left:-10px;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+ .black_bg {
+   /* background-image: url("../images/upper_ribbon_black_bg.png"); */
+   background-color:#3c3c3c;
+	position:relative;
+	background-repeat: repeat-x;
+	-webkit-border-top-right-radius: 10px;
+     -moz-border-top-right-radius: 10px;
+     border-top-right-radius: 10px;
+	 -webkit-border-bottom-right-radius: 10px;
+     -moz-border-bottom-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+	height: 41px;
+	margin: 0px 0px;;
+	width: 820px;
+	left:-10px;
+	padding:0px, !important;
+	display:inline-block;
+	float:left;
+}
+.grey_triangle {
+	width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 20px 0 21px 21px;
+border-color: transparent transparent transparent #666666;
+line-height: 0px;
+_border-color: #000000 #000000 #000000 #666666;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+display:inline-block;
+	}
+.steps {
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	bottom:-10px;
+	margin-left:25px;
+	vertical-align:bottom;}	
+
+.panel {
+	display:inline-block;}
+.employer_home_content {
+	height: auto;
+	background: #ccc;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 30px 5px;
+	position: relative;
+}	
+#emp_main_content {
+	width:94%;
+	background-color:#FFF;
+    top:70px;
+	margin:20px auto;
+	position:relative;
+	height: auto;
+	padding: 10px 120px 50px 120px;
+	 -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     border-radius: 8px;
+	 
+	 -webkit-box-shadow: 0px 0px 10px #333;
+         -moz-box-shadow: 0px 0px 10px #333;
+         box-shadow: 0px 0px 10px #333;}
+
+
+.emp_main_content > div {
+	padding:0 !important;
+	}
+div.posted_jobs_detail_brief_for_employer {
+	font-size:12px;
+	color:#999;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+#emp_home_page_advertise_container {
+	min-height:100px;
+	height:auto;
+	background:#ddd;
+	border:#aaa thin solid;
+	text-align:center;
+	vertical-align:central;
+	position:relative;
+	margin:80px auto -20px auto;
+	width:94%;}
+span.current_page_num {
+	background-color:#f00;
+	color:#fff;
+	padding:2px;}	
+	
+#page_controls {
+	float:right;
+	margin-right:30px;
+	font-size:14px;
+	margin-top:5px;}
+#page_controls > a {
+	text-decoration:none;
+	color:#f66;
+	font-weight:bold;
+	}	
+#page_controls > a:visited {
+	color:#666;
+	
+	}
+#page_controls > a:hover {
+	color:#CCC;
+	}	
+				
+		
+		

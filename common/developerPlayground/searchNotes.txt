@@ -1,0 +1,15 @@
+no point in using the salary ranges table for search; should be able to state any salary range you wish (e.g. 0-200k or 75-85k), rather than only a fixed range (e.g. 20k-45k or 50k-75k etc.);
+
+in order to be able to search for keywords, the following have to be done to the database:
+- change `job` table engine to MYISAM (from INNODB, the default)
+- add fulltext indexes for the fields where keywords will be searched (job description and title):
+ALTER TABLE `job` ENGINE = MYISAM;
+ALTER TABLE `job` ADD FULLTEXT fulltext_index(`JobDescription`, `JobTitle`);
+
+altered the `job` database so there will be a `SalaryLow` and `SalaryHigh` value for each job, rather than one `Salary` field; made them integer (no point in using float)
+
+
+To do:
+ - add results sorting
+ - tweak the salary search to take into account no top limit for salary (not done at the moment)
+ - limit results to x (maybe 20/30) per page; not urgent as there are not many listed jobs at the moment

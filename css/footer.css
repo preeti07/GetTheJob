@@ -1,0 +1,142 @@
+
+     /* Style for overlay and box */
+        .overlay{
+            background:transparent url(../images/overlay_images/overlay.png) repeat top left;
+            position:fixed;
+            top:0px;
+            bottom:0px;
+            left:0px;
+            right:0px;
+            z-index:100;
+        }
+        .box{
+            position:fixed;
+            top:-800px;
+            left:15%;
+            right:15%;
+            background-color:#000;
+            color:#D4D4D4;
+			font-size:15px;
+			font-weight:bold;
+			min-height:150px;
+			max-height:470px;
+			height:auto;
+            padding:40px;
+            border:3px solid #c00;
+			 -webkit-border-radius: 8px;
+     		-moz-border-radius: 8px;
+     		border-radius: 8px;
+			-khtml-border-radius:8px; 
+         /*   -moz-border-radius: 10px;
+            -webkit-border-radius:10px;  
+           /* -khtml-border-radius:10px;  */
+		   -webkit-box-shadow: 0 1px 5px #333;
+            -moz-box-shadow: 0 1px 5px #333;
+            
+            z-index:101;
+			opacity:.9;
+        }
+    /*    .box h1{
+            margin:-20px -20px 0px -20px;
+            padding:10px;
+            background-color:#000;
+            color:#c00;
+            -moz-border-radius:20px 20px 0px 0px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-top-right-radius: 20px;
+            -khtml-border-top-left-radius: 20px;
+            -khtml-border-top-right-radius: 20px;
+        }  */
+        a.boxclose{
+            float:right;
+            width:26px;
+            height:26px;
+            background:transparent url(../images/overlay_images/cancel.png) repeat top left;
+            margin-top:-50px;
+            margin-right:-50px;
+            cursor:pointer;
+        }
+		a.boxclose_button{
+            cursor:pointer;
+			
+		}
+		span#job_alert_msg_p {
+			color:#F90;
+			font-family:Georgia, "Times New Roman", Times, serif;}
+		#job_alert_form {
+			display:none;
+			line-height:28px;}	
+		#left_of_job_alert_form {
+			width:50%;
+			float:left;}
+		#right_of_job_alert_form {
+			float:right;
+			width:50%;}	
+		#job_alert_form input {
+			background-color:#000;
+			border:1px solid #333;
+			height:23px;
+			width:185px;
+			margin-left:4px;
+			color:#F03;}
+		#job_alert_form input.job_alert_form_input_disabled {
+			
+			border:none;
+			height:23px;
+			width:185px;
+			margin-left:4px;
+			color:#666;}	
+		#job_alert_form label {
+			width:130px;
+			display:inline-block;
+			}	
+	/*	#job_alert_form select {
+			background-color:#000;
+			width:204px;
+			-moz-border-radius:0px 0px 0px 0px;
+            -webkit-border-top-left-radius: 0px;
+            -webkit-border-bottom-left-radius: 0px;
+            -khtml-border-top-left-radius: 0px;
+            -khtml-border-bottom-left-radius: 0px;
+			color:#F03;
+			}	*/
+		#job_alert_form select[multiple].select_red_arrow{
+			 height:auto;
+		/*	background: url(../images/select_red_arrow1.png) no-repeat right #F96;*/
+			/*border: 0 !important;*/
+			border:1px solid #333;
+			text-indent: 0.01px;
+			text-overflow: "";
+			width:188px;
+			font-size: 14px;
+			margin-left:4px;
+			/*background-position: 82px 7px; */
+			background-color:#000;
+			-webkit-appearance: none;  /*Removes default chrome and safari style*/
+     		-moz-appearance: none; }
+		#job_alert_form select.select_single_arrow{
+			height:auto;
+			background: url(../images/select_red_arrow1.png) no-repeat right #F96;
+			border: 0 !important;
+			border:1px solid #333;
+			text-indent: 0.01px;
+			text-overflow: "";
+			width:188px;
+			font-size: 14px;
+			margin-left:4px;
+			/*background-position: 82px 7px; */
+			background-color:#000;
+			-webkit-appearance: none;  /*Removes default chrome and safari style*/
+     		-moz-appearance: none; }	
+		span.red_asterick{
+			color:#f00;}
+		.success_msg {
+			color:#093;
+			background: url(../images/check.png) no-repeat left;
+			padding-left:30px;
+			}
+		.error_msg {
+			color:#BC1D1F;
+			background: url(../images/cross.png) no-repeat left;
+			padding-left:30px;
+			}		

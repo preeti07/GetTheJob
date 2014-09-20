@@ -1,0 +1,46 @@
+#job_alert_box {
+	width:100%;
+	background-color:#FFF;
+    
+	margin:20px auto;
+	position:relative;
+	height: auto;
+	padding: 10px 0px 50px 0px;
+	 -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     border-radius: 8px;
+	 
+	 -webkit-box-shadow: 0px 0px 10px #333;
+         -moz-box-shadow: 0px 0px 10px #333;
+         box-shadow: 0px 0px 10px #333;
+	color:#333;
+	font-size:14px;
+	font-weight:normal !important;	 }
+#emp_home_page_advertise_container {
+	min-height:100px;
+	height:auto;
+	background:#ddd;
+	border:#aaa thin solid;
+	text-align:center;
+	vertical-align:central;
+	position:relative;
+	margin:10px auto -20px auto;
+	width:100%;}		 
+.job_alert_filters {
+	width:100%;
+	background-color:#b60001;
+	-webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     border-radius: 8px;
+	 color:#fff;}	
+#job_alert_box > h3, h4 {
+	padding:0px 40px;
+	color:#666666;}	
+#job_alert_box > h3 {
+	color:#c00;}	
+#job_alert_filters_form {
+	padding:50px;}	
+#job_alert_filters_form > input {
+	-webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;}	

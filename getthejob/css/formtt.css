@@ -1,0 +1,55 @@
+.formtt {
+	font-family: "Tw Cen MT";
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	color: #000;
+}
+
+	
+.ErrorField {
+    border-color: #D00;
+    color: #D00;
+    background: #FFFFFE;
+}
+
+span.ValidationErrors {
+    display: inline-block;
+    font-size: 12px;
+    color: #D00;
+    padding-left: 10px;
+    font-style: italic;
+}
+ #astrick {
+	 color:#d00}
+
+#box
+	{
+        width: 500px;
+	        height: 600px;
+	        background: #FFF;
+	        border:#900 groove thin;
+	        text-align: center;
+	        position:fixed;
+	        margin-left: -75px;
+	        margin-top: -75px;
+	        left: 35%;
+	        top: 15%;
+	        z-index: 9999;
+	        display: none;
+	}
+	 
+#screen
+	{
+	        position: absolute;
+	        left: 0;
+	        top: 0;
+	        background:#000;
+			display:none;
+	}
+.jobid {
+	
+	}
+	
+.grayField {
+	color:#666;}	

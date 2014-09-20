@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<title>ceva titlu</title>
+<body onload = "districtUpdate(3,56)">
+
+<form name="searchForm" action="jobAdvancedSearchDisplay.php" method="post">
+<select name="salaryMin" onChange="salaryUpdate(this.selectedIndex,0)">
+ <option  value ="0">Any region</option>
+ <option  value ="1">Auckland</option>
+ <option  value ="2">Bay Of Plenty</option>
+ <option selected value ="3">Canterbury</option>
+ <option  value ="4">Gisborne</option>
+ <option  value ="5">Hawkes Bay</option>
+ <option  value ="6">Manawatu/Wanganui</option>
+ <option  value ="7">Marlborough</option>
+ <option  value ="8">Nelson/Tasman</option>
+ <option  value ="9">Northland</option>
+ <option  value ="10">Otago</option>
+ <option  value ="11">Southland</option>
+ <option  value ="12">Taranaki</option>
+ <option  value ="13">Waikato</option>
+ <option  value ="14">Wellington</option>
+ <option  value ="15">West Coast</option>
+</select>
+<select name="districtId">
+</select>
+<script>
+var districtNames = new Array();
+var districtIds = new Array();
+districtNames[0] = ["Select region first"];
+districtIds[0] = ["0"];
+districtNames[1] = ["Any district", "Franklin", "Rodney", "North Shore City", "Waitakere City", "Auckland City", "Waiheke Island", "Manukau City", "Hauraki Gulf Islands", "Papakura"];
+districtIds[1] = ["0", "2", "33", "44", "55", "65", "72", "75", "76", "77"];
+districtNames[2] = ["Any district", "Western Bay Of Plenty", "Tauranga", "Rotorua", "Whakatane", "Kawerau", "Opotiki"];
+districtIds[2] = ["0", "14", "15", "16", "17", "18", "19"];
+districtNames[3] = ["Any district", "Hurunui", "Waimakariri", "Christchurch City", "Banks Peninsula", "Selwyn", "Ashburton", "Timaru", "Mackenzie", "Waimate"];
+districtIds[3] = ["0", "53", "54", "56", "57", "58", "59", "60", "61", "62"];
+districtNames[4] = ["Any district", "Gisborne"];
+districtIds[4] = ["0", "20"];
+districtNames[5] = ["Any district", "Wairoa", "Hastings", "Napier", "Central Hawkes Bay"];
+districtIds[5] = ["0", "21", "23", "24", "25"];
+districtNames[6] = ["Any district", "Ruapehu", "Wanganui", "Rangitikei", "Manawatu", "Palmerston North", "Tararua", "Horowhenua"];
+districtIds[6] = ["0", "29", "30", "31", "32", "34", "35", "36"];
+districtNames[7] = ["Any district", "Marlborough", "Kaikoura"];
+districtIds[7] = ["0", "48", "49"];
+districtNames[8] = ["Any district", "Tasman", "Nelson"];
+districtIds[8] = ["0", "46", "47"];
+districtNames[9] = ["Any district", "Far North", "Whangarei", "Kaipara"];
+districtIds[9] = ["0", "1", "11", "22"];
+districtNames[10] = ["Any district", "Waitaki", "Central Otago", "Queenstown-Lakes", "Dunedin", "Clutha", "South Otago"];
+districtIds[10] = ["0", "63", "64", "66", "67", "68", "74"];
+districtNames[11] = ["Any district", "Southland", "Gore", "Invercargill", "Catlins"];
+districtIds[11] = ["0", "69", "70", "71", "73"];
+districtNames[12] = ["Any district", "New Plymouth", "Stratford", "South Taranaki"];
+districtIds[12] = ["0", "26", "27", "28"];
+districtNames[13] = ["Any district", "Thames-Coromandel", "Hauraki", "Waikato", "Matamata-Piako", "Hamilton", "Waipa", "Otorohanga", "South Waikato", "Waitomo", "Taupo"];
+districtIds[13] = ["0", "3", "4", "5", "6", "7", "8", "9", "10", "12", "13"];
+districtNames[14] = ["Any district", "Kapiti Coast", "Porirua", "Upper Hutt", "Lower Hutt", "Wellington", "Masterton", "Carterton", "South Wairarapa"];
+districtIds[14] = ["0", "37", "38", "39", "40", "41", "42", "43", "45"];
+districtNames[15] = ["Any district", "Buller", "Grey", "Westland"];
+districtIds[15] = ["0", "50", "51", "52"];
+
+districtList = document.searchForm.districtId;
+function districtUpdate(selectedRegionId,selectedDistrictId){
+ districtList.options.length = 0;
+ for (i=0; i < districtNames[selectedRegionId].length; i++) {
+	  selectedDistrict = false;
+	  if (districtIds[selectedRegionId][i] == selectedDistrictId) {
+	  	  selectedDistrict = true;
+	  }
+      districtList.options[districtList.options.length] = new Option(districtNames[selectedRegionId][i],districtIds[selectedRegionId][i],false,selectedDistrict);
+ }
+}
+
+</script>
+
+</form>
+</body>
+</html>

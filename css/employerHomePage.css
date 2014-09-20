@@ -1,0 +1,131 @@
+/* CSS Document */
+.employer_home_content {
+	height: 100%;
+	background: #cccccc;
+	width: 1024px;
+	margin: 0 auto;
+	padding: 30px 5px;
+	position: relative;
+}
+.upper_ribbon_left {
+	background-image: url("../images/upper_ribbon_left.png");
+	background-position: left top;
+	background-repeat: repeat-x;
+	height: 67px;
+	left: -15px;
+	margin: 0;
+	position: absolute;
+	top: -10px;
+	width: 20px;
+}
+.grey_bg {
+   background-image: url("../images/upper_ribbon_grey_bg.png");	
+	background-repeat: repeat-x;
+	height: 41px;
+	margin: 0px 0px;
+	width: 174px;
+	left:-10px;
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+ .black_bg {
+   /* background-image: url("../images/upper_ribbon_black_bg.png"); */
+   background-color:#3c3c3c;
+	position:relative;
+	background-repeat: repeat-x;
+	-webkit-border-top-right-radius: 10px;
+     -moz-border-top-right-radius: 10px;
+     border-top-right-radius: 10px;
+	 -webkit-border-bottom-right-radius: 10px;
+     -moz-border-bottom-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+	height: 41px;
+	margin: 0px 0px;;
+	width: 820px;
+	left:-10px;
+	padding:0px, !important;
+	display:inline-block;
+	float:left;
+}
+.grey_triangle {
+	width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 20px 0 21px 21px;
+border-color: transparent transparent transparent #666666;
+line-height: 0px;
+_border-color: #000000 #000000 #000000 #666666;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+display:inline-block;
+	}
+.steps {
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	bottom:-10px;
+	margin-left:25px;
+	vertical-align:bottom;}	
+.panel {
+	display:inline-block;}
+#employer_panel {
+	list-style: none outside none;
+    margin: 0px;
+   
+	color:#f00;
+	font-size:20px;
+	clear: both;
+    height: 35px;
+	
+    padding: 0 0 0 40px;
+    position: relative;
+   }	
+#employer_panel li {
+    background: url('../images/menu_images/menu_line.png') no-repeat scroll right 0px transparent;
+    float: left;
+    position: relative;
+	padding:0 20px;
+	height:28px;
+}
+#employer_panel li:last-child {
+	background:none;
+	}		
+#employer_panel li div {
+	margin-right:10px;
+	margin-top:3px;}	
+#employer_panel li div.listed_job_icon {
+    background: url('../images/menu_images/listed_jobs.png') 0 0 no-repeat;
+    width: 14px;
+    height: 17px;
+    float: left;
+	
+}
+#employer_panel li div.expired_job_icon {
+    background: url('../images/menu_images/expired_jobs.png') 0 -16px no-repeat;
+    width: 14px;
+    height: 17px;
+    float: left;
+	
+}​
+#employer_panel li div.candidate_icon {
+   /* background: url('../images/menu_images/candidates_list.png') 0 0 no-repeat; */
+    width: 44px;
+    height: 17px;
+    float: left;
+	background-color:#f00;
+}​	
+#employer_panel li div.account_setting_icon {
+    background: url('../images/menu_images/account_settings.png') 0 0 no-repeat;
+    width: 14px;
+    height: 17px;
+    float: left;
+	background-color:#0f0;
+
+}​	
+.active {
+	color:#669;}		
+account_setting_icon1 {
+	
+	}				
+

@@ -1,0 +1,48 @@
+div.listed_jobs_sub_panel {
+	position:relative;
+	top:-65px;
+	left:120px;
+	font-weight:bold;
+	font-size:17px;
+	color:#333;}
+.red_title {
+	color:#FF2635 !important;
+	padding:0;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:7px;
+	}
+.red_title > a {
+	color:#FB2C32 !important;
+	text-decoration:none;}
+hr.posted_jobs_hr_red {
+	size:1px;
+	margin:0px;}
+.posted_jobs_container_left_panel {
+	width:70%;
+	display:inline-block;
+	padding:0 10px 0 2px;
+	line-height:17px;}
+div.posted_jobs_container_right_panel {
+	width:30%;
+	display:inline-block;
+	padding::10px 10px 0 40px;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+	top:-40px;
+	}
+.emp_posted_job_logo_img {
+	margin:0px -15px 20px 20px;}
+span.bold {
+	font-weight:bold;
+	color:#505050;}	
+div.view_detail_link {
+	color:#F33;
+	float:left;
+	margin-left:43px;
+	margin-top:20px;}
+div.emp_posted_job_bottom_panel {
+	background-color:#CCC;
+	color:#000;
+	padding:4px 40px;}		

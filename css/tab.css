@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:active {
+	outline: none;
+}
+a:focus {
+	-moz-outline-style: none;
+}
+#tabs_container {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height:46px;
+/*	border-bottom:1px solid #blue;*/
+	padding-right:10px;
+	margin-left:300px;
+}
+#tabs_container ul.tabs {
+	list-style: none;
+	border-bottom: 1px solid #B70000;
+	height: 46px;
+	margin: 0;
+}
+#tabs_container ul.tabs li {
+	float: left;
+	font-weight: bold;
+}
+#tabs_container ul.tabs li a {
+	text-decoration: none;
+	float:right;
+	margin-right: 5px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color: #000;
+	border: 1px solid #b70000;
+	border-bottom:none;
+	padding: 13px 10px;
+	width:160px;
+	text-align:center;
+	display: block;
+	-moz-border-radius-topleft:10px 10px;
+	-moz-border-radius-topright:10px 10px;
+	-webkit-border-radius-topleft:10px 10px;
+	-webkit-border-radius-topright:10px 10px;
+	background-color:#FFD9D9;
+	font-size: 14px;
+	
+}
+#tabs_container ul.tabs li a:hover { background:#C60000;
+									color:#fff;
+									text-shadow:2px 2px 2px #000;
+								}
+/*#tabs_container ul.tabs li a#onclick {
+										background:#fff;
+										border-bottom:1px solid #fff;
+										color:#000;}
+#tabs_container ul.tabs li a#onclick:hover {
+											background:#fff;
+											color:#900;
+											text-shadow:1px 1px 1px #000;}  */
+#tabs_container ul.tabs li.active a {
+	background-color: #fff;
+	border-bottom:1px solid #fff;
+	padding-top: 14px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #c60000;
+}
+div.tab_contents_container {
+	border: 1px solid #b70000;
+	border-top: none;
+	padding: 5px 10px;
+}
+div.tab_contents {
+	display: none;
+}
+div.tab_contents_active {
+	display: block;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	background-color: #fff;
+}
+div.clear {
+	clear: both;
+}
+#tabs_container .clear {
+	font-family: "Tw Cen MT";
+}
+#tabs_container .tab_contents_container #tab_1_contents p strong {
+	font-size: 14px;
+}
+#tabs_container .tab_contents_container #tab_1_contents p strong {
+	font-size: 16px;
+}
+#tabs_container .tab_contents_container #tab_1_contents p strong {
+	font-family: "Trajan Pro";
+}
+#tabs_container .tab_contents_container #tab_1_contents p strong {
+	font-weight: bold;
+}
+#tabs_container .tab_contents_container #tab_1_contents p strong {
+	font-weight: bold;
+}
+
+.info {display:none;}

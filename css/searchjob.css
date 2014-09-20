@@ -1,0 +1,58 @@
+.searchjob {
+	display: inline-block;
+	height: 235px;
+	margin-left: 10px;
+	position: absolute;
+	width: 630px;
+}
+.search {
+	background-color: #FFFFFF;
+	border-color: #999;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 1px;
+	clear: both;
+	font-size: 14px;
+	height: 110px;
+	margin-top: -1px;
+	padding: 20px 15px;
+	font-weight: bold;
+}
+.search > ul {
+	float: left;
+	list-style: none outside none;
+	margin: 5px 0;
+	font-size: 12px;
+}
+.search li {
+	float: left;
+	padding-right: 20px;
+}
+/*.search li:first-child {
+	color: #970200;
+}*/	
+
+#job_content {
+	width:94%;
+	background-color:#FFF;
+    top:70px;
+	margin:20px auto;
+	position:relative;
+	height: auto;
+	padding: 10px 120px 50px 120px;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 10px #333;
+    -moz-box-shadow: 0px 0px 10px #333;
+    box-shadow: 0px 0px 10px #333;
+		}
+	
+#links li > a {
+	text-decoration:none;
+	color:#000;
+	}
+#links li > a:active, #links li > a:hover {
+text-decoration:underline;
+}	
+	
