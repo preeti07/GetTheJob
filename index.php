@@ -104,7 +104,7 @@
     <!-- end Basic jQuery Slider --> 
     
   </div>
-  <!-- End outer wrapper --> 
+  <!-- End outer wrapper div --> 
   
   <!-- attach the plug-in to the slider parent element and adjust the settings as required --> 
   <script class="secret-source">
